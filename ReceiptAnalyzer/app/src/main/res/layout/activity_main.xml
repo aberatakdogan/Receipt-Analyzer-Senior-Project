@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_data3"
+                    android:layout_width="352dp"
+                    android:layout_height="30dp"
+                    android:text="Scanned Receipt Data"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-35dp"
+                    android:src="@drawable/resim" />
+
+
+                <TextView
+                    android:id="@+id/text_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to the Receipt Analyzer App"
+                    android:textColor="#FF0000"
+                    android:layout_marginBottom="120dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_data2"
+                    android:layout_width="352dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="Choose Marketplace to Scan"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+
+                <ImageView
+                    android:id="@+id/image_view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/unnamed" />
+
+                <RadioButton
+                    android:id="@+id/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="BİM"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Eğer gerekiyorsa buraya başka görüntüler veya metinler ekleyebilirsiniz -->
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/button_capture"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Capture" />
+
+
+
+
+
+        <Button
+            android:id="@+id/button_copy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="View Graph"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
