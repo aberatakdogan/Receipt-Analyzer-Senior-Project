@@ -6,7 +6,6 @@
 * Detailed information can be found on User's Manual document and the project link https://bzelihagunay.wixsite.com/receipt-analyzer/s-projects-side-by-side.
 * Screenshots from the application:
 
-![image](https://github.com/user-attachments/assets/372706b6-9d21-4a56-a152-ab720f5528b3)
 
 ![image](https://github.com/user-attachments/assets/e32cd089-d5b5-4464-8527-eab74735c0b5)
 
