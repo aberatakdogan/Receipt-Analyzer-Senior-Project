@@ -3,7 +3,8 @@
 * The scanned data in the receipt contain some necessary information such as product name, price of product, and date.
 * It is aimed to provide users with the opportunity to effectively observe the price changes in products in a certain period with a time/price graph.
 * Java, Firebase Realtime Database, OCR, and MPAndroidChart technologies were used.
-* Detailed information can be found on User's Manual document and the project link https://bzelihagunay.wixsite.com/receipt-analyzer/s-projects-side-by-side.
+* Detailed information can be found on the project link https://bzelihagunay.wixsite.com/receipt-analyzer/s-projects-side-by-side.
+* Detailed setup steps can be found on User's Manual pdf document.
 * Screenshots from the application:
 
 
